@@ -13,7 +13,7 @@ function abrirCarta() {
     senhaContainer.style.display = "none";
   } else {
     tentativas++;
-    if (tentativas >= 4) {
+    if (tentativas >= 5) {
       erro.innerHTML = 'Senha incorreta. Tente novamente.<br><strong>Dica:</strong> O prato que você faz que Vinícius ama';
     } else {
       erro.innerHTML = 'Senha incorreta. Tente novamente.';
