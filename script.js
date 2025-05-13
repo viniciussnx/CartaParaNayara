@@ -14,7 +14,7 @@ function abrirCarta() {
   } else {
     tentativas++;
     if (tentativas >= 4) {
-      erro.innerHTML = 'Senha incorreta. Tente novamente.<br><strong>Dica:</strong> O prato que você fez que Vinícius ama';
+      erro.innerHTML = 'Senha incorreta. Tente novamente.<br><strong>Dica:</strong> O prato que você faz que Vinícius ama';
     } else {
       erro.innerHTML = 'Senha incorreta. Tente novamente.';
     }
